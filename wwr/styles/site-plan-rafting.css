@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #304C89;
-    --secondary-color: #9EB7E5;
-    --accent1-color: #A7E8BD;
+    --secondary-color: #466cb0;
+    --accent1-color: #AAE0F5;
     --accent2-color: #FFD972;
 
     --heading-font: Montserrat, serif;
@@ -12,7 +12,7 @@
     --nav-background-color: #304C89;
     --nav-link-color: #FFD972;
     --nav-hover-link-color: #FFD972;
-    --nav-hover-background-color: #9EB7E5;
+    --nav-hover-background-color: #466cb0;
 }
 
 body {
