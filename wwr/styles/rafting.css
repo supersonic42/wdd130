@@ -98,3 +98,7 @@ main {
     margin: 0;
     text-shadow: 1px 1px #333;
 }
+
+.sociallinks a {
+    text-decoration: none;
+}
