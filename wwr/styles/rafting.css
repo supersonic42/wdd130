@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #304C89;
+    --secondary-color: #466cb0;
+    --accent1-color: #AAE0F5;
+    --accent2-color: #FFD972;
+
+    --heading-font: Montserrat, serif;
+    --paragraph-font: Montserrat, serif;
+
+    --nav-background-color: #304C89;
+    --nav-link-color: #FFD972;
+    --nav-hover-link-color: #FFD972;
+    --nav-hover-background-color: #466cb0;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+main {
+    max-width: 960px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    color: var(--accent2-color);
+    text-shadow: 1px 1px #333;
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 70px;
+    background-color: rgba(79, 79, 79, 0.7);
+}
+
+.hero article img {
+    float: right;
+    margin: 15px;;
+    width: 200px;
+}
+
+.hero article p {
+    color: #fff;
+    margin: 0;
+    text-shadow: 1px 1px #333;
+}
