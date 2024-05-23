@@ -29,13 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
 }
 
 .logo {
+    height: 100px;
     place-self: center;
 }
 
@@ -74,28 +75,27 @@ main {
 }
 
 .hero {
-    position: relative;
+    background-image: url('../images/hero.jpg');
+    padding: 20px 30px 30px 30px;
 }
 
 .hero h1 {
     color: var(--accent2-color);
     text-shadow: 1px 1px #333;
-    margin: 0;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+    margin: 0 0 15px 0;
+    text-align: center;
 }
 
 .hero article {
-    position: absolute;
-    top: 70px;
     background-color: rgba(79, 79, 79, 0.7);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.hero article h2 {
+    display: none;
 }
 
 .hero article img {
@@ -170,7 +170,7 @@ main {
 
 footer {
     background-color: var(--nav-background-color);
-    color: #fff;
+    color: var(--accent2-color);
     display: grid;
     grid-template-columns: 4fr 1fr;
     place-items: center;
