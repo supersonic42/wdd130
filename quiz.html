@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS quiz</title>
+    <link rel="stylesheet" href="./styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>☑ Basic HTML and CSS quiz</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item">
+                <label for="q1"><span>1.</span>What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+                <label for="q2"><span>2.</span>How do you select siblings in CSS?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3"><span>3.</span>Which of the following attributes is correct for text color change?</label>
+                <select id="q3" name="q3">
+                    <option value="" disabled selected>--choose one--</option>
+                    <option value="color">color</option>
+                    <option value="textcolor">textcolor</option>
+                    <option value="rgb">rgb</option>
+                    <option value="hex">hex</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="q4"><span>4.</span>How many tags are in HTML?</label>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | Basic HTML and CSS quiz | Anton Sanakoev</p>
+    </footer>
+</body>
+</html>
