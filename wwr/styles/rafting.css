@@ -175,3 +175,102 @@ footer {
     grid-template-columns: 4fr 1fr;
     place-items: center;
 }
+
+#company-map {
+    border: 0;
+    height: 200px;
+    width: 300px;
+}
+
+.company-info ul {
+    list-style: none;
+}
+
+.company-info ul li {
+    padding: 1rem;
+}
+
+.company-info ul li span {
+    display: inline-block;
+    width: 100px;
+}
+
+.company-employees .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.employee {
+    margin: 1rem;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}
+
+.employee img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.contact-form {
+    border: 1px solid #ccc;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    width: 600px;
+}
+
+.contact-form label {
+    cursor: pointer;
+    display: block;
+    padding: 1rem 0;
+}
+
+.contact-form label > span:nth-child(1) {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    margin-top: 0.5rem;
+}
+
+.contact-form input[type="text"], 
+.contact-form textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 400px;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: sub;
+}
+
+.contact-form button {
+    cursor: pointer;
+    margin: 1rem auto;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    width: 160px;
+}
+
+.contact-form button:hover {
+    background-color: darkgreen;
+}
+
+.contact-form .purpose label {
+    padding: 0.2rem 0;
+}
+
+.contact-form .purpose > div {
+    margin-bottom: 0.4rem;
+}
