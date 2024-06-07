@@ -319,3 +319,26 @@ footer .wireframe-link {
 .another-trips tr:nth-child(2n) {
     background-color: #ebebeb;
 }
+
+.home .hero {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.home .contact-form {
+    margin-top: 2rem;
+}
+
+.home .purposes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home .purpose img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.home .purpose figcaption {
+    font-weight: 700;
+}
