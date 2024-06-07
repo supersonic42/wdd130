@@ -274,3 +274,7 @@ footer {
 .contact-form .purpose > div {
     margin-bottom: 0.4rem;
 }
+
+footer .wireframe-link {
+    color: var(--nav-link-color)
+}
