@@ -174,6 +174,7 @@ footer {
     display: grid;
     grid-template-columns: 4fr 1fr;
     place-items: center;
+    margin-top: 3rem;
 }
 
 #company-map {
@@ -279,4 +280,42 @@ footer {
 
 footer .wireframe-link {
     color: var(--nav-link-color)
+}
+
+.call-to-action {
+    background-color: var(--nav-hover-background-color);
+    border: 1px solid #ccc;
+    color: var(--accent2-color);
+    padding: 1rem;
+}
+
+.call-to-action a {
+    color: white;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trip figure {
+    width: 250px;
+}
+
+.trip figure img {
+    max-width: 100%;
+}
+
+.another-trips {
+    border-collapse: collapse;
+}
+
+.another-trips th,
+.another-trips td {
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.another-trips tr:nth-child(2n) {
+    background-color: #ebebeb;
 }
